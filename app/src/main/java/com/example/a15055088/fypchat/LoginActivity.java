@@ -11,26 +11,14 @@ import android.widget.EditText;
 import android.widget.Toast;
 import android.content.Context;
 import javax.net.ssl.HttpsURLConnection;
-
-import java.io.BufferedWriter;
 import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import android.app.AlertDialog.Builder;
 import java.io.IOException;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
-import com.kosalgeek.genasync12.AsyncResponse;
-import com.kosalgeek.genasync12.PostResponseAsyncTask;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.ProtocolException;
-import java.net.URLConnection;
-import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
